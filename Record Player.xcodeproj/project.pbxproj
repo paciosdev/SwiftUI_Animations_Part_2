@@ -11,6 +11,11 @@
 		88EA1703260E4B3600BB0398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1702260E4B3600BB0398 /* ContentView.swift */; };
 		88EA1705260E4B3700BB0398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1704260E4B3700BB0398 /* Assets.xcassets */; };
 		88EA1708260E4B3700BB0398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1707260E4B3700BB0398 /* Preview Assets.xcassets */; };
+		88EA1711260E4C4200BB0398 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1710260E4C4200BB0398 /* RecordPlayerBox.swift */; };
+		88EA1715260E4CA300BB0398 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1713260E4C8600BB0398 /* music.m4a */; };
+		88EA171C260E4D6700BB0398 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA171B260E4D6700BB0398 /* RecordView.swift */; };
+		88EA171F260E4E6100BB0398 /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA171E260E4E6100BB0398 /* ArmView.swift */; };
+		88EA1722260E50A600BB0398 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1721260E50A600BB0398 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		88EA1704260E4B3700BB0398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EA1707260E4B3700BB0398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88EA1709260E4B3700BB0398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EA1710260E4C4200BB0398 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
+		88EA1713260E4C8600BB0398 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		88EA171B260E4D6700BB0398 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		88EA171E260E4E6100BB0398 /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
+		88EA1721260E50A600BB0398 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				88EA1700260E4B3600BB0398 /* Record_PlayerApp.swift */,
 				88EA1702260E4B3600BB0398 /* ContentView.swift */,
+				88EA1721260E50A600BB0398 /* PlaySound.swift */,
+				88EA171E260E4E6100BB0398 /* ArmView.swift */,
+				88EA171B260E4D6700BB0398 /* RecordView.swift */,
+				88EA1710260E4C4200BB0398 /* RecordPlayerBox.swift */,
+				88EA1713260E4C8600BB0398 /* music.m4a */,
 				88EA1704260E4B3700BB0398 /* Assets.xcassets */,
 				88EA1709260E4B3700BB0398 /* Info.plist */,
 				88EA1706260E4B3700BB0398 /* Preview Content */,
@@ -128,6 +143,7 @@
 			files = (
 				88EA1708260E4B3700BB0398 /* Preview Assets.xcassets in Resources */,
 				88EA1705260E4B3700BB0398 /* Assets.xcassets in Resources */,
+				88EA1715260E4CA300BB0398 /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EA1703260E4B3600BB0398 /* ContentView.swift in Sources */,
+				88EA1722260E50A600BB0398 /* PlaySound.swift in Sources */,
+				88EA171C260E4D6700BB0398 /* RecordView.swift in Sources */,
+				88EA171F260E4E6100BB0398 /* ArmView.swift in Sources */,
 				88EA1701260E4B3600BB0398 /* Record_PlayerApp.swift in Sources */,
+				88EA1711260E4C4200BB0398 /* RecordPlayerBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
